@@ -10,7 +10,7 @@ class Ajoutpersonne{
         }
     
 
-    ajout=(nom,prenom,age)=>{
+     ajout(nom,prenom,age){
         let tab = [];
         let item={
             id: tab.length + 1,
